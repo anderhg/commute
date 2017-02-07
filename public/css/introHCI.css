@@ -26,6 +26,12 @@
      z-index: -1;	
 }
 
+#personimg {
+     right: 0;
+     position: absolute;
+     top: 0;
+}
+
 .jumbotron p {
      color: #6e6e6e;
 }
