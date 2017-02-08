@@ -81,6 +81,11 @@ a.button {
   max-width: 100%;
 }
 
+.btn-circle.btn-xl.btn-user {
+     position: relative;
+     top: -24px;
+}
+
 .btn-circle.btn-xl.btn-schedule {
      position: relative;
      top: 20px;
@@ -123,6 +128,11 @@ border-color: rgb(53, 126, 189);
 .backButton {
      position: relative;
      top: 20px;
+}
+
+.jumbotron.homepage {
+     padding-top: 12px;
+     padding-bottom: 12px;
 }
 
 
