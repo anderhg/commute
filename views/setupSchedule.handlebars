@@ -19,98 +19,100 @@
 </head>
 
 <body>
-	<div>
-		<h1> Edit Schedule </h1>
+	<div class="container">
+		<div>
+			<h1> Edit Schedule </h1>
+		</div>
+
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	  	<div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingOne">
+	      <h4 class="panel-title">
+	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+	          MONDAYS
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+	      <div class="panel-body">
+			Pick-up Time: <br>
+	        Going home:	<br>
+	        Going to: 
+	      </div>
+	    </div>
+	  	</div>
+	  	<div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingTwo">
+	      <h4 class="panel-title">
+	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          TUESDAYS
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	      <div class="panel-body">
+	        Pick-up Time: <br>
+	        Going home:	<br>
+	        Going to: 
+	      </div>
+	    </div>
+	  	</div>
+	  	<div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingThree">
+	      <h4 class="panel-title">
+	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          WEDENSDAYS
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	      <div class="panel-body">
+	      	Pick-up Time: <br>
+	        Going home: <br>
+	        Going to: 
+	      </div>
+	    </div>
+	  	</div>
+	  	<div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingFour">
+	      <h4 class="panel-title">
+	        <a class ="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+	          THURSDAYS
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+	      <div class="panel-body">
+			Pick-up Time: <br>
+	        Going home:	<br>
+	        Going to: 
+	      </div>
+	    </div>
+	  	</div>
+	  	<div class="panel panel-default">
+	    <div class="panel-heading" role="tab" id="headingFive">
+	      <h4 class="panel-title">
+	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+	          FRIDAYS
+	        </a>
+	      </h4>
+	    </div>
+	    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+	      <div class="panel-body">
+			Pick-up Time: <br>
+	        Going home: <br>
+	        Going to: 
+	      </div>
+	      </div>
+	  	  </div>    
+		  </div>
+
+		<div class="backButton">
+			<a href="./" class="button">Back</a>
+		</div>
+
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
 	</div>
-
-	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  	<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          MONDAYS
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-		Pick-up Time: <br>
-        Going home:	<br>
-        Going to: 
-      </div>
-    </div>
-  	</div>
-  	<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          TUESDAYS
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-        Pick-up Time: <br>
-        Going home:	<br>
-        Going to: 
-      </div>
-    </div>
-  	</div>
-  	<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          WEDENSDAYS
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-      	Pick-up Time: <br>
-        Going home: <br>
-        Going to: 
-      </div>
-    </div>
-  	</div>
-  	<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-      <h4 class="panel-title">
-        <a class ="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          THURSDAYS
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-		Pick-up Time: <br>
-        Going home:	<br>
-        Going to: 
-      </div>
-    </div>
-  	</div>
-  	<div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFive">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-          FRIDAYS
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-      <div class="panel-body">
-		Pick-up Time: <br>
-        Going home: <br>
-        Going to: 
-      </div>
-      </div>
-  	  </div>    
-	  </div>
-
-	<div class="backButton">
-		<a href="./" class="button">Back</a>
-	</div>
-
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
