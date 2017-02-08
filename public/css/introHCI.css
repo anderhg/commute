@@ -45,7 +45,6 @@ p.drivecard {
 }
 
 a.button {
-<<<<<<< HEAD
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -78,19 +77,4 @@ a.button {
   font-size: 60px;
   line-height: 1.33;
   border-radius: 85px;
-=======
-    border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 24px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  float: left;
-  
->>>>>>> 8897eaf9b9f90f6e6949756fcfcb8b025b34c9c1
 }
