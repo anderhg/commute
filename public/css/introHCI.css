@@ -80,3 +80,19 @@ a.button {
   border-radius: 85px;
   max-width: 100%;
 }
+
+.btn-circle.btn-xl.btn-schedule {
+     position: relative;
+     top: 20px;
+     width: 400px;
+     font-size: 30px;
+}
+
+.glyphicon.glyphicon-time.time-icon {
+     font-size: 200%;
+     right: 45px;
+     vertical-align: middle;
+     top: -6px;
+}
+
+
