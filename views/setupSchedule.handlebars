@@ -24,88 +24,134 @@
 			<h1> Edit Schedule </h1>
 		</div>
 
-		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-	  	<div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingOne">
-	      <h4 class="panel-title">
-	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-	          MONDAYS
-	        </a>
-	      </h4>
+		<div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Home address" required />
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Destination address" required />
+                </div>
+            </div>
+        </div>
+
+	    <div class="row">
+	        <div class="col-md-12">
+	            <div class="panel-group" id="accordion">
+	                <div class="panel panel-default">
+	                    <div class="panel-heading">
+	                        <h4 class="panel-title">
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">MONDAYS</a>
+	                        </h4>
+	                    </div>
+	                    <div id="collapseOne" class="panel-collapse collapse">
+	                        <div class="panel-body">
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Leaving home at" required />
+	                                    </div>
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Going home at" required />
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="panel panel-default">
+	                    <div class="panel-heading">
+	                        <h4 class="panel-title">
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	                            TUESDAYS</a>
+	                        </h4>
+	                    </div>
+	                    <div id="collapseTwo" class="panel-collapse collapse">
+	                        <div class="panel-body">
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Leaving home at" required />
+	                                    </div>
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Going home at" required />
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="panel panel-default">
+	                    <div class="panel-heading">
+	                        <h4 class="panel-title">
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	                            WEDNESDAYS</a>
+	                        </h4>
+	                    </div>
+	                    <div id="collapseTwo" class="panel-collapse collapse">
+	                        <div class="panel-body">
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Leaving home at" required />
+	                                    </div>
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Going home at" required />
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="panel panel-default">
+	                    <div class="panel-heading">
+	                        <h4 class="panel-title">
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	                            THURSDAYS</a>
+	                        </h4>
+	                    </div>
+	                    <div id="collapseTwo" class="panel-collapse collapse">
+	                        <div class="panel-body">
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Leaving home at" required />
+	                                    </div>
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Going home at" required />
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="panel panel-default">
+	                    <div class="panel-heading">
+	                        <h4 class="panel-title">
+	                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+	                            FRIDAYS</a>
+	                        </h4>
+	                    </div>
+	                    <div id="collapseTwo" class="panel-collapse collapse">
+	                        <div class="panel-body">
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Leaving home at" required />
+	                                    </div>
+	                                    <div class="form-group">
+	                                        <input type="text" class="form-control" placeholder="Going home at" required />
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+                <a href="./" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-floppy-disk"></span>Save</a>
+	        </div>
 	    </div>
-	    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-	      <div class="panel-body">
-			Pick-up Time: <br>
-	        Going home:	<br>
-	        Going to: 
-	      </div>
-	    </div>
-	  	</div>
-	  	<div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingTwo">
-	      <h4 class="panel-title">
-	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-	          TUESDAYS
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-	      <div class="panel-body">
-	        Pick-up Time: <br>
-	        Going home:	<br>
-	        Going to: 
-	      </div>
-	    </div>
-	  	</div>
-	  	<div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingThree">
-	      <h4 class="panel-title">
-	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-	          WEDENSDAYS
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-	      <div class="panel-body">
-	      	Pick-up Time: <br>
-	        Going home: <br>
-	        Going to: 
-	      </div>
-	    </div>
-	  	</div>
-	  	<div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingFour">
-	      <h4 class="panel-title">
-	        <a class ="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-	          THURSDAYS
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-	      <div class="panel-body">
-			Pick-up Time: <br>
-	        Going home:	<br>
-	        Going to: 
-	      </div>
-	    </div>
-	  	</div>
-	  	<div class="panel panel-default">
-	    <div class="panel-heading" role="tab" id="headingFive">
-	      <h4 class="panel-title">
-	        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-	          FRIDAYS
-	        </a>
-	      </h4>
-	    </div>
-	    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-	      <div class="panel-body">
-			Pick-up Time: <br>
-	        Going home: <br>
-	        Going to: 
-	      </div>
-	      </div>
-	  	  </div>    
-		  </div>
+
 
 		<div class="backButton">
 			<a href="./" class="button">Back</a>

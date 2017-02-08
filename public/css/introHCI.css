@@ -97,4 +97,32 @@ a.button {
      top: -10px
 }
 
+.form-inline .form-group {
+     margin-right:10px;
+}
+
+.well-primary {
+color: rgb(255, 255, 255);
+background-color: rgb(66, 139, 202);
+border-color: rgb(53, 126, 189);
+}
+
+.glyphicon { 
+     margin-right:5px;
+}
+
+.panel-title {
+     text-align: center;
+}
+
+.btn.btn-success.btn-sm{
+     position: relative;
+     top: 15px;
+}
+
+.backButton {
+     position: relative;
+     top: 20px;
+}
+
 
