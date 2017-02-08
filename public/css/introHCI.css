@@ -36,6 +36,10 @@
      color: #6e6e6e;
 }
 
+p.drivecard {
+     text-align: center;
+}
+
 .project a {
      text-align: center;
 }
