@@ -45,6 +45,6 @@ app.get('/profile', profile.viewProfile);
 // Example route
 // app.get('/users', user.list);
 
-http.createServer(app).listen(app.get('port'), function(){
+http.createServer(app).listen(process.env.PORT || 3000, function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
